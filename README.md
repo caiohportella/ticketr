@@ -5,7 +5,7 @@
 <div align="center">
   <br />
   
-  <img src="https://github.com/user-attachments/assets/1e877233-2a7e-407d-a33f-e63a04b398b7" alt="pdfriendly" />
+  <img src="https://github.com/user-attachments/assets/d931fd38-fe4a-43cb-923d-53db171acfb5" alt="ticketr" />
 
   <br />
 
@@ -23,7 +23,7 @@
 
 ## 📋 About
 
-**Ticketr** is a website where you can .
+**Ticketr** is a website where you can sell and buy tickets of all the top trending artists right now.
 
 ## 🔋 Features
 👉 **Real-Time Ticket Availability Tracking**: Always be up-to-date with the availability. <br />
