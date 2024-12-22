@@ -38,7 +38,9 @@ export default function SellerDashboard() {
     }
   }, [stripeConnectId]);
 
-  if (stripeConnectId === undefined) return <Spinner />;
+  if (stripeConnectId === undefined) {
+    return <Spinner />;
+  }
 
   const handleManageAccount = async () => {
     try {
@@ -226,13 +228,13 @@ export default function SellerDashboard() {
                   <h3 className="text-sm font-medium text-yellow-800 mb-3">
                     Required Information
                   </h3>
-                  {accountStatus.requirements.current_due.length > 0 && (
+                  {accountStatus.requirements.currently_due.length > 0 && (
                     <div className="mb-3">
                       <p className="text-yellow-800 font-medium mb-2">
                         Action Required:
                       </p>
                       <ul className="list-disc pl-5 text-yellow-700 text-sm">
-                        {accountStatus.requirements.current_due.map((req) => (
+                        {accountStatus.requirements.currently_due.map((req) => (
                           <li key={req}>{req.replace(/_/g, " ")}</li>
                         ))}
                       </ul>

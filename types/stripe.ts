@@ -10,7 +10,7 @@ export type AccountStatus = {
   isActive: boolean;
   requiresInformation: boolean;
   requirements: {
-    current_due: string[];
+    currently_due: string[];
     eventually_due: string[];
     past_due: string[];
   };
