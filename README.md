@@ -15,7 +15,6 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
     <img src="https://img.shields.io/badge/-clerk-k23E?style=for-the-badge&logoColor=777882&logo=clerk&color=000000" alt="clerk" />
     <img src="https://img.shields.io/badge/-stripe-k23E?style=for-the-badge&logoColor=white&logo=stripe&color=6671e4" alt="stripe" />
-    <img src="https://img.shields.io/badge/-stripe-k23E?style=for-the-badge&logoColor=white&logo=convex&color=6671e4" alt="convex" />
   </div>
 
   <h3 align="center">No more headaches when it comes to seeing the artist you love the most</h3>
