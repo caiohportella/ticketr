@@ -21,7 +21,7 @@ export async function getStripeConnectAccountStatus(
         account.requirements?.past_due?.length
       ),
       requirements: {
-        current_due: account.requirements?.currently_due || [],
+        currently_due: account.requirements?.currently_due || [],
         eventually_due: account.requirements?.eventually_due || [],
         past_due: account.requirements?.past_due || [],
       },
